@@ -1,0 +1,74 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.cartItems{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+  .cartItem {
+    width: 400px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 80px;
+  }
+  
+  .cartItem img {
+    width: 150px;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+
+
+/* CSS */
+button {
+  
+  background-color: transparent;
+  border: 1px solid #1A1A1A;
+margin: 5px;
+  color: #3B3B3B;
+  cursor: pointer;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  
+}
+
+button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
